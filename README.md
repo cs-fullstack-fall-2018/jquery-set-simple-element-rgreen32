@@ -1,6 +1,6 @@
 # Exercise to select and modify elements using jQuery
 
-Each of the <div><\div> elements wants to be assigned a color or have an event binded to it. 
+Each of the ```<div><\div>``` elements wants to be assigned a color or have an event binded to it. 
   
 Use jQuery to give them their desired features.
 
