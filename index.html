@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Using jQuery - Elements and Events</title>
+
+    <style type="text/css">
+        <!--
+        ADD YOUR STYLES needed to complete the exercise
+
+        -->
+
+        <!--
+        Feel free to ignore the following styles. They need not be changed for this exercise to be completed.
+
+        -->
+
+        #gallery {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        #gallery li {
+            float: left;
+            margin-right: 10px;
+        }
+
+        #gallery li img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .hazBtns {
+            float: left;
+            margin: 20px
+        }
+
+    </style>
+</head>
+<body>
+<div id="gallery">
+    <img src="jimi2.jpg"/>
+    <img src="pagey.jpg"/>
+    <img src="stevie.jpg"/><
+</div>
+<div class="pgContent">
+    <!-- Use jQuery to make the elements below match their request -->
+    <div class='red'>I should be red!</div>
+    <div class='red'>I should be red too!</div>
+    <div id="myElement">I should be blue! When you click on me, I want you to invoke a function that uses alert() to display the message "<strong>myElement was clicked!</strong>"
+        <div>I want my background to be green and my text white!</div>
+        <div>I want my background to be orange and my text black!</div>
+    </div>
+    <div class='red'>Red please!</div>
+
+    <!-- The 4 buttons below should have their text display 'strong' and have a 2px blue border when hovered over with the mouse -->
+    <!-- The 4 buttons below should perform the actions specified by their text -->
+    <div class="hazBtns">
+        <button id="btnFade">Fade Images</button>
+        <button id="btnUnfade">UnFade Images</button>
+        <button id="btnSlideDn">Slide Images Down</button>
+        <button id="btnSlideUp">Slide Images Up</button>
+    </div>
+</div>
+</body>
+</html>
