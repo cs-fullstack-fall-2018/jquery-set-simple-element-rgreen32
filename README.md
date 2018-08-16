@@ -10,7 +10,7 @@ Use the provided HTML file and complete the following:
     <div id="myElement">I should be blue! When you click on me, I want you to invoke a function 
     that uses alert() to display the message "myElement was clicked!"
         <div>I want my background to be green and my text white!</div>
-        <div>I want my background to be orange and my text black!</div>
+        <div>I want my background to be orange and my text pink!</div>
     </div>
     <div class='red'>Red please!</div>
 ```
