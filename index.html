@@ -51,19 +51,46 @@
     <div class='red'>I should be red!</div>
     <div class='red'>I should be red too!</div>
     <div id="myElement">I should be blue! When you click on me, I want you to invoke a function that uses alert() to display the message "<strong>myElement was clicked!</strong>"
-        <div>I want my background to be green and my text white!</div>
-        <div>I want my background to be orange and my text pink!</div>
+        <div id="one">I want my background to be green and my text white!</div>
+        <div id="two">I want my background to be orange and my text pink!</div>
     </div>
     <div class='red'>Red please!</div>
 
     <!-- The 4 buttons below should have their text display 'strong' and have a 2px blue border when hovered over with the mouse -->
     <!-- The 4 buttons below should perform the actions specified by their text -->
     <div class="hazBtns">
-        <button id="btnFade">Fade Images</button>
-        <button id="btnUnfade">UnFade Images</button>
-        <button id="btnSlideDn">Slide Images Down</button>
-        <button id="btnSlideUp">Slide Images Up</button>
+        <button id="btnFade"><strong>Fade Images</strong></button>
+        <button id="btnUnfade"><strong>UnFade Images</strong></button>
+        <button id="btnSlideDn"><strong>Slide Images Down</strong></button>
+        <button id="btnSlideUp"><strong>Slide Images Up</strong></button>
     </div>
 </div>
 </body>
+<script>
+    $(".red").css("color", "red");
+    $("#myElement").css("color", "blue").click(function(){
+        alert("myElement was clicked!")
+    });
+    $("#one").css("background-color", "green").css("color", "white");
+    $("#two").css("background-color", "orange").css("color", "pink");
+
+    $("#btnFade").click(function () {
+        $("#gallery img").fadeOut("slow");
+    });
+
+    $("#btnUnfade").click(function(){
+        $("#gallery img").fadeIn("slow");
+    });
+
+    $("#btnSlideDn").click(function () {
+        $("#gallery img").slideDown("slow");
+    });
+
+    $("#btnSlideUp").click(function () {
+        $("#gallery img").slideUp("slow");
+
+    })
+
+
+</script>
 </html>
