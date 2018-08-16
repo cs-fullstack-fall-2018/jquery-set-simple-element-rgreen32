@@ -28,11 +28,11 @@ Use the provided HTML file and complete the following:
     </div>
 ```
 #### Tips:
-*Create CSS selectors in the HTML as needed for style requests
-*Use the jQuery function toggleClass() to add/remove styles
-*Use the jQuery on() event handler function for button clicks and other events
-*Use the jQuery effects fanctions fadeToggle() and slideToggle() to apply effects to images 
-*Check the jQuery documentation and/or your text book for additional details
+* Create CSS selectors in the HTML as needed for style requests
+* Use the jQuery function toggleClass() to add/remove styles
+* Use the jQuery on() event handler function for button clicks and other events
+* Use the jQuery effects fanctions fadeToggle() and slideToggle() to apply effects to images 
+* Check the jQuery documentation and/or your text book for additional details
 
 ### Bonus:
-*Try some of the other effects such as animate()
+* Try some of the other effects such as animate()
