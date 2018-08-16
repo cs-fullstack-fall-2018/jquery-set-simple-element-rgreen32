@@ -7,7 +7,8 @@ Use the provided HTML file and complete the following:
 ```
     <div class='red'>I should be red!</div>
     <div class='red'>I should be red too!</div>
-    <div id="myElement">I should be blue! When you click on me, I want you to invoke a function that uses alert() to display the message "myElement was clicked!"
+    <div id="myElement">I should be blue! When you click on me, I want you to invoke a function 
+    that uses alert() to display the message "myElement was clicked!"
         <div>I want my background to be green and my text white!</div>
         <div>I want my background to be orange and my text black!</div>
     </div>
@@ -16,7 +17,8 @@ Use the provided HTML file and complete the following:
 ### Wire up the buttons as requested in the code
 
 ```
-    <!-- The 4 buttons below should have their text display 'strong' and have a 2px blue border when hovered over with the mouse -->
+    <!-- The 4 buttons below should have their text display 'strong' and have a 2px blue border 
+    when hovered over with the mouse -->
     <!-- The 4 buttons below should perform the actions specified by their text -->
     <div class="hazBtns">
         <button id="btnFade">Fade Images</button>
